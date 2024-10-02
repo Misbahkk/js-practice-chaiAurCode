@@ -16,3 +16,30 @@ ya sare vi han jin ka ap ko memory ma refrence directly allocated kiya jata ha
 Javascript is dynamiclly typed language
 
 */
+
+const id = Symbol('123')
+const numberid = Symbol('123')
+// This both value is different
+console.log(id === numberid)
+
+console.log(id) 
+console.log(numberid);
+
+
+
+/*
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+*/
